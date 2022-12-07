@@ -1,0 +1,123 @@
+ body{
+     margin: 0;
+ } 
+ 
+ .cabecera{
+     background-color:rgb(22, 13, 91) ;
+     padding: 5px;
+ }
+
+.cabecera .logo{
+    padding: 0;
+    background-color: white;
+    color:rgb(230, 8, 230);
+    margin:10px;
+}
+
+.cabecera .logo .logo-fundacion{
+    width: 45px;
+}
+
+.cabecera .menu li{
+    display: inline-block;
+    padding: 0 10px ;
+
+}
+.cabecera .menu li a {
+	    color: white;
+}
+
+header .banner img{
+    width: 100%;
+}
+
+body .inicio{
+    padding: 3% 15%;
+}
+
+body .sobre-nosotros{
+    padding: 0% 9%;
+    background-color: rgb(211, 211, 211);
+}
+
+body .sobre-nosotros img{
+    width: 50%;
+}
+
+body .sobre-nosotros #nuestra-org{
+    background-color: white;
+    border: 1px solid grey;
+    margin: 0 0 5px;
+}
+
+body .sobre-nosotros #nuestra-org .detalle{
+    padding: 50px;
+}
+
+body .sobre-nosotros #nuestra-org .detalle a{
+    display: block;
+    background-color: rgb(22, 13, 91);
+    padding: 0 0 25px 0;
+    color: white;
+}
+
+body .sobre-nosotros #accion{
+    background-color: white;
+    border: 1px solid grey;
+}
+
+body .sobre-nosotros #accion .detalle{
+    padding: 50px;
+}
+
+body .sobre-nosotros #accion .detalle a{
+    display: block;
+    background-color: rgb(22, 13, 91);
+    padding: 0 0 25px 0;
+    color: white;
+}
+
+body .galeria{
+    padding: 0% 9%;
+}
+
+body .galeria h2{
+    padding: 25px 0px 0px;
+    margin-bottom: 0;
+    border-bottom: 1px solid grey;
+}
+
+body .galeria table{
+    padding-left: 17%;
+    width: 80%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+body .galeria img{
+    width: 100%;
+}
+
+body .suscribirme{
+    background-color:rgba(255, 0, 128, 0.99);
+    padding: 20px 0;
+    color: white;
+}
+
+.suscribirme h2{
+    margin: 0;
+    color: wheat;
+}
+
+.suscribirme #registrar{
+    background-color:rgb(150, 8, 150);
+    color: white;
+    border: 0;
+    padding: 5px;
+}
+
+body footer{
+    background-color:rgb(22, 13, 91) ;
+    color: white;
+    padding: 10px;
+}
