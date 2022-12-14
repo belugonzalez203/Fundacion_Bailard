@@ -1,5 +1,6 @@
  body{
      margin: 0;
+     font-family: 'Montserrat', sans-serif;
  } 
  
  .cabecera{
@@ -11,8 +12,10 @@
     padding: 0;
     background-color: white;
     color:rgb(230, 8, 230);
+    font-weight: bold;
     margin:10px;
 }
+
 
 .cabecera .logo .logo-fundacion{
     width: 45px;
@@ -24,7 +27,17 @@
 
 }
 .cabecera .menu li a {
-	    color: white;
+	color:lightgray;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.cabecera .menu li a:hover{
+    color:rgb(230, 8, 230);
 }
 
 header .banner img{
@@ -33,6 +46,13 @@ header .banner img{
 
 body .inicio{
     padding: 3% 15%;
+    text-align: center;
+
+}
+
+body p{
+    color:dimgrey;
+    font-size: 14px;
 }
 
 body .sobre-nosotros{
@@ -52,13 +72,22 @@ body .sobre-nosotros #nuestra-org{
 
 body .sobre-nosotros #nuestra-org .detalle{
     padding: 50px;
+    text-align: center;
 }
 
 body .sobre-nosotros #nuestra-org .detalle a{
     display: block;
     background-color: rgb(22, 13, 91);
-    padding: 0 0 25px 0;
+    padding: 13px 0;
     color: white;
+}
+
+body .sobre-nosotros #nuestra-org .detalle a:hover{
+    color:rgb(230, 8, 230);
+}
+
+body .sobre-nosotros #nuestra-org .detalle a:active{
+    color:yellow;
 }
 
 body .sobre-nosotros #accion{
@@ -68,13 +97,22 @@ body .sobre-nosotros #accion{
 
 body .sobre-nosotros #accion .detalle{
     padding: 50px;
+    text-align: center;
 }
 
 body .sobre-nosotros #accion .detalle a{
     display: block;
     background-color: rgb(22, 13, 91);
-    padding: 0 0 25px 0;
+    padding: 13px 0;
     color: white;
+}
+
+body .sobre-nosotros #accion .detalle a:hover{
+    color:rgb(230, 8, 230);
+}
+
+body .sobre-nosotros #accion .detalle a:active{
+    color:yellow;
 }
 
 body .galeria{
@@ -102,6 +140,7 @@ body .suscribirme{
     background-color:rgba(255, 0, 128, 0.99);
     padding: 20px 0;
     color: white;
+    text-align: center;
 }
 
 .suscribirme h2{
@@ -109,15 +148,32 @@ body .suscribirme{
     color: wheat;
 }
 
+.suscribirme .det{
+    color: white;
+}
+
 .suscribirme #registrar{
     background-color:rgb(150, 8, 150);
     color: white;
     border: 0;
     padding: 5px;
+    font-weight: bolder;
+}
+
+.suscribirme #registrar:hover{
+    color: rgb(22, 13, 91);
+    transition: 0.5s;
+}
+
+.suscribirme #registrar:active{
+    color: yellow;
+    transition: 0.5s;
 }
 
 body footer{
     background-color:rgb(22, 13, 91) ;
     color: white;
     padding: 10px;
+    text-align: center;
+    font-size: 11px;
 }
